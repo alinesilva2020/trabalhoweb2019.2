@@ -1,0 +1,110 @@
+
+         p {
+        text-align:justify;
+        color: black;
+        }
+        h1{
+            font-style: italic;
+            text-decoration: underline;
+            text-align: center;
+            color: green;
+          }
+        h2{
+            text-align: center;
+            text-decoration:underline green;
+            color: green;
+          }
+          
+        
+        body{    
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.6em;
+        margin:0;
+        background-color:white;
+        }
+        
+              
+        a :hover{
+            /*passar o mouse por cima*/
+            border-color: lime;
+            border-style: solid;
+            border-image: 10px;
+          }
+        a :visited{
+            /* apos clicar */
+            color: blue;
+          }
+        a :active{
+            /*mostrar que foi acionado*/
+            background-color: chartreuse;
+          }
+        button{
+            width: 140px;
+            transition-duration: 0.4s;
+            border-radius: 10px;
+            background-color: green;
+            color: white;
+            font-size: 18px;
+          }
+        button :hover{
+            color:black;
+            
+          }
+        .cabecalho{
+            height: 230px;
+            
+            background-color:beige;
+    
+        } 
+        .barra_lateral_esquerda{
+          text-align: center;
+            height: 800px;
+            width: 20%;      
+            float: left;
+            padding:30px;
+            margin:40px;
+            background-color: beige;
+            box-sizing: border-box;
+            
+            
+        }
+        .barra_lateral_direita{
+          width: 30%;
+          height: 800px;
+          background-color:beige;
+          float: right ;
+          margin: 10px;
+          padding: 10px;
+          box-sizing: border-box;
+        }
+        
+        
+        .conteudo_central{
+          width: 38%;
+          height: 800px;
+          border-width: 50px;
+          border-color: yellow;
+          text-decoration: underline;
+          font-style: italic;
+          float: left;
+          background-color: beige;
+          margin: 10px;
+          padding: 10px;
+          box-sizing: border-box;     
+    
+            
+        }
+       
+        .rodape{
+            height: 200px;
+            background-color:beige;            
+            /* background-image: url(..ima/);*/
+            clear: both;
+        
+        }
+        
+        
+        
+       
